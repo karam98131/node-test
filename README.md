@@ -9,9 +9,16 @@ Simple Node JS+Express APIs with MySql
 - Joi
   
 
-### Run
-copy .env-sample and paste it into newly created .env and then run
+### Installation
 
+Clone this repo and run these commands
+```
+cd node-test
+```
+```
+npm install
+```
+copy .env-sample and paste it into a new file called .env and then run
 ```
 npm start
 ```
