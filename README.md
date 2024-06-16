@@ -10,6 +10,8 @@ Simple Node JS+Express APIs with MySql
   
 
 ### Run
+copy .env-sample and paste it into newly created .env and then run
+
 ```
 npm start
 ```
