@@ -1,7 +1,7 @@
-const Users = require("../../nodetest/models/Users");
+const Users = require("../models/Users");
 const bcrypt = require("bcrypt");
-const sanitizedUsers = require("../../nodetest/util/sanitizeUsers");
-const userSchema = require("../../nodetest/validation/userValidation");
+const sanitizedUsers = require("../util/sanitizeUsers");
+const userSchema = require("../validation/userValidation");
 
 //create user
 exports.createUser = async (req, res) => {
